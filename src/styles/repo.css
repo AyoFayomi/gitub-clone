@@ -1,5 +1,5 @@
 .repo-container {
-  width: 60%;
+  width: 65%;
   float: right;
   margin-top: 2em;
   margin-right: 10em;
@@ -15,17 +15,17 @@
   width: 60%;
 }
 .left-sec > h2 {
-  font-size: 22px;
+  font-size: 20px;
   color: rgb(0, 102, 255);
 }
 span.repo-type{
   text-align: center;
   width: 60px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   background-color: rgb(255, 255, 255);
   color: #000000; 
-  padding: 5px 10px;
+  padding: 2px 10px;
   border-radius: 20px;
   border: 1px solid rgb(165, 165, 165);
   margin-left: 1em;

@@ -16,7 +16,7 @@ const Repository = ({ reposList, inputText }) => {
             ) {
               return repo;
             }
-            return null;
+            return repo;
           })
           .map((repo) => (
             <div className="repo" key={repo?.id}>

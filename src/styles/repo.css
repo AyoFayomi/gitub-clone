@@ -18,16 +18,18 @@
   font-size: 22px;
   color: rgb(0, 102, 255);
 }
-.repo-type {
-  margin-left: 1em;
+span.repo-type{
+  text-align: center;
+  width: 60px;
   font-size: 14px;
-  font-weight: 400;
-  background-color: rgb(207, 116, 116);
-  color: #000000;
-  padding: 0.2em 0.7em;
-  padding-top: 0em;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  color: #000000; 
+  padding: 5px 10px;
   border-radius: 20px;
-  border: 1px solid #0000;
+  border: 1px solid rgb(165, 165, 165);
+  margin-left: 1em;
+  
 }
 .repo-description {
   font-size: 16px;

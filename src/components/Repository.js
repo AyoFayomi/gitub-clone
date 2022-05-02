@@ -47,7 +47,7 @@ const Repository = ({ reposList, inputText }) => {
                   <p>
                     <BsStar className="repo-icon" /> {repo?.stargazers_count}
                   </p>
-                  <p>updated {} days ago</p>
+                  <p>updated 5 days ago</p>
                 </span>
               </div>
               <div>

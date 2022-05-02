@@ -1,5 +1,5 @@
 .search-container{
-    width: 60%;
+    width: 65%;
     margin: auto;
     float: right;
     padding: 1.6em 0;
@@ -8,8 +8,8 @@
 }
 .search-input{
     width: 70%;
-    font-size: 14px;
-    padding: .5em 1em;
+    font-size: 12px;
+    padding: .8em 1em;
     margin-right: 1em;
     border-radius: 8px;
     border: 1px solid #ccc;

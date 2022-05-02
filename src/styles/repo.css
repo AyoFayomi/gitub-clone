@@ -61,11 +61,11 @@ span.repo-type{
 }
 .repo-sort {
   border-radius: 0 10px 10px 0;
-  padding: .63em 1em;
+  padding: .7em 1em;
   border: 1px solid #ccc;
   background-color: rgb(243, 243, 243);
   cursor: pointer;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 .repo-star:hover{
     background-color: rgb(243, 243, 243);

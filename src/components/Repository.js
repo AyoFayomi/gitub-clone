@@ -10,13 +10,14 @@ const Repository = ({ reposList, inputText }) => {
       {reposList?.name !== "Error" &&
         reposList
           .filter((repo) => {
-            if (inputText == "") {
+            if (inputText === "") {
               return repo;
             } else if (
               repo.name.toLowerCase().includes(inputText.toLowerCase())
             ) {
               return repo;
             }
+            return null;
           })
           .map((repo) => (
             <div className="repo" key={repo?.id}>

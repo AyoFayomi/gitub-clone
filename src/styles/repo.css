@@ -15,21 +15,22 @@
   width: 60%;
 }
 .left-sec > h2 {
-  font-size: 28px;
+  font-size: 22px;
   color: rgb(0, 102, 255);
 }
 .repo-type {
   margin-left: 1em;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(207, 116, 116);
   color: #000000;
   padding: 0.2em 0.7em;
   padding-top: 0em;
   border-radius: 20px;
+  border: 1px solid #0000;
 }
 .repo-description {
-  font-size: 20px;
+  font-size: 16px;
 }
 .repo-details {
   display: flex;
@@ -44,12 +45,11 @@
 .star-group{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-
+    align-items: center;
 }
 .repo-star {
-  padding: .6em 1.3em;
-  font-size: 18px;
+  padding: .7em 1.3em;
+  font-size: 14px;
   background-color: rgb(243, 243, 243);
   border-radius: 10px 0 0 10px;
   border: 1px solid #ccc;
@@ -59,23 +59,23 @@
 }
 .repo-sort {
   border-radius: 0 10px 10px 0;
-  padding: .87em 1.2em;
+  padding: .63em 1em;
   border: 1px solid #ccc;
   background-color: rgb(243, 243, 243);
   cursor: pointer;
-  margin-top: 1.3em;
+  margin-top: 2em;
 }
 .repo-star:hover{
     background-color: rgb(243, 243, 243);
 }
 .repo-icon {
-  font-size: 16px;
+  font-size: 14px;
   margin-right: 0.2em;
   margin-bottom: -.2em;
 }
 .repo-star-icon{
-    font-size: 19px;
-    font-weight: 800;
-    margin-bottom: -.2em;
-    margin-right: .4em;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: -.1em;
+    margin-right: .2em;
 }

@@ -7,8 +7,8 @@
     border-bottom: 1px solid #ccc;
 }
 .search-input{
-    width: 68.5%;
-    font-size: 16px;
+    width: 60%;
+    font-size: 14px;
     padding: .5em 1em;
     margin-right: 1em;
     border-radius: 8px;
@@ -17,7 +17,7 @@
 .search-type, .search-sort{
     padding: .5em 0em;
     padding-left: 1em;
-    font-size: 16px;
+    font-size: 14px;
     background-color: rgb(238, 238, 238);
     border: none;
     border-radius: 10px;
@@ -28,7 +28,7 @@
 .search-language{
     padding: .5em 0em;
     padding-left: 1em;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0em 1em;
     background-color: rgb(238, 238, 238);
     border: none;

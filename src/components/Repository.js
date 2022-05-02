@@ -1,10 +1,9 @@
 import { BsStar, BsChevronDown } from "react-icons/bs";
 import { FaBalanceScale } from "react-icons/fa";
 import { VscRepoForked } from "react-icons/vsc";
-import date from "date-and-time";
 import "../styles/repo.css";
 
-const Repository = ({ reposList, inputText }) => { 
+const Repository = ({ reposList, inputText }) => {
   return (
     <main className="repo-container">
       {reposList?.name !== "Error" &&

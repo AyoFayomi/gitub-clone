@@ -1,0 +1,24 @@
+.log-in-page{
+    height: 90vh;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.log-in-image{
+    font-size: 100px;
+}
+.log-in-page > h2{
+    font-size: 36px;
+}
+.LoginButton{
+    font-size: 20px;
+    padding: 1em 2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 2px 3px #ccc;
+    transition: all 0.3s ease
+}

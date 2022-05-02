@@ -1,0 +1,36 @@
+.nav-header {
+  border-bottom: 3px solid rgb(207, 207, 207);
+}
+.nav-header > ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.nav-header > ul > li {
+  list-style: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: .8em;
+  margin-bottom: -3px;
+  padding: 0.8em;
+  display: flex;
+}
+.active-nav-header {
+    font-weight: 600;
+  border-bottom: 4px solid #fd8d73;
+}
+.nav-rep-no {
+  text-align: center;
+  font-size:16px;
+  padding: 3.5px 5px;
+  background-color: rgb(212, 212, 212);
+  margin-left: 8px;
+  border-radius: 35%;
+}
+.nav-icons{
+    font-size: 22px;
+    margin-top: 3px;
+    margin-right: 7px;
+    color: rgb(124, 122, 122)
+}

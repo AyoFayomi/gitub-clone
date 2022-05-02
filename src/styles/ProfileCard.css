@@ -1,0 +1,73 @@
+.profile-card {
+  width: 25%;
+  float: left;
+  padding-left: 5em;
+  margin-top: -3em;
+  flex-direction: column;
+}
+.profile-img-container {
+  width: 450px;
+  height: 450px;
+  border: none;
+  margin: auto ;
+}
+.profile-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.profile-names {
+  width: 65%;
+  margin: 2em auto;
+}
+.nickName {
+  font-size: 34px;
+  font-weight: 600;
+}
+.fullName {
+  font-size: 26px;
+}
+.prof-btn {
+  font-size: 18px;
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  padding: 0.6em 0;
+  margin: 1.5em 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  box-shadow: 1px 1px rgb(192, 192, 192);
+}
+.bio {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 1em;
+}
+.prof-icon {
+  font-size: 18px;
+  margin-right: 0.3em;
+}
+.dot {
+  margin: 0em 0.7em;
+}
+.profile-lists{
+    margin: 2em 0;
+}
+.list-prof {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin: 0.5em 0;
+}
+.prof-list-icons {
+  font-size: 20px;
+  margin-right: 12px;
+}
+.achivements {
+  width: 65%;
+  margin: 0 auto;
+}
+.achivements-header {
+  font-size: 22px;
+}
